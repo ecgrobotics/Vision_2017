@@ -1,4 +1,4 @@
-package org.usfirst.frc.team9817.robot;
+package org.usfirst.frc.team1533.robot;
 
 import org.opencv.core.Core;
 import org.opencv.core.Mat;
@@ -44,17 +44,17 @@ public class Robot extends IterativeRobot {
 	 */
 	@Override
 	public void teleopPeriodic() {
-		Mat frame = new Mat();
-
-
-		camera.read(frame);
-
-
-		SmartDashboard.putNumber("Captured Frame Width ", frame.width());
-		SmartDashboard.putNumber("Captured Frame Height ", frame.height());
-
-
-		Highgui.imwrite("camera.jpg", frame);
+//		Mat frame = new Mat();
+//
+//
+//		camera.read(frame);
+//
+//
+//		SmartDashboard.putNumber("Captured Frame Width ", frame.width());
+//		SmartDashboard.putNumber("Captured Frame Height ", frame.height());
+//
+//
+//		Highgui.imwrite("camera.jpg", frame);
 
 	}
 
